@@ -1,6 +1,6 @@
-# node-stopwatcher
+# node-timeter
 
-> 一个简单的秒表⏱
+> 一个简单的秒表⏱,timeter就是time meter
 
 ```const sw = new StopWatch()```
 
