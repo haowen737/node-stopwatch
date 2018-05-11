@@ -27,3 +27,4 @@ class Timeter {
 }
 
 module.exports = Timeter
+module.exports.default = module.exports; // For TypeScript

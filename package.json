@@ -1,19 +1,23 @@
 {
-  "name": "node-timeter",
+  "name": "timeter",
   "version": "1.0.4",
   "description": "a simple stopwatch",
   "main": "index.js",
+  "files": [
+    "index.js",
+    "typings/index.d.ts"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:haowen737/node-timeter.git"
+    "url": "git@github.com:haowen737/timeter.git"
   },
   "author": "Haowen <haowen737@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/haowen737/node-timeter/issues"
+    "url": "https://github.com/haowen737/timeter/issues"
   },
-  "homepage": "https://github.com/haowen737/node-timeter#readme"
+  "homepage": "https://github.com/haowen737/timeter#readme"
 }

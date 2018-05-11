@@ -1,10 +1,10 @@
-# node-timeter
+# timeter
 
 > 一个简单的秒表⏱,timeter就是time meter
 
 ## Install
 
-```npm install node-timeter --save```
+```npm install timeter --save```
 
 ## Usage
 
@@ -18,5 +18,5 @@
 
 ## Thanks
 
-秒表功能的命名是从iphone上获取的灵感
+秒表功能的命名是从ios上获取的灵感,Thanks Apple🍻
 
