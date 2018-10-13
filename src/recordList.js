@@ -1,12 +1,10 @@
-class RecordList extends Array {
+export default class RecordList extends Array {
   constructor(args) {
     super(...args)
   }
   print() {
     let str = ''
-    this.forEach((el, index) => str += `${index}: ${el}\n`)
-    console.log(str)
+    this.forEach((el, index) => str += `${index}: ${el.record}: ${el._lap}\n`)
+    return str
   }
 }
-
-module.exports = RecordList

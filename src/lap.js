@@ -1,10 +1,9 @@
-class Lap extends String {
+export default class Lap extends String {
   constructor(args) {
     super(args)
   }
-  print() {
-    console.log(this.valueOf())
+  print(record) {
+    const content = `${record}: ${this.valueOf()}`
+    return content
   }
 }
-
-module.exports = Lap
